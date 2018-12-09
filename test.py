@@ -10,7 +10,7 @@ import adafruit_thermal_printer
 uart = serial.Serial("/dev/serial0", baudrate=19200, timeout=3000)
 
 #Create Thermal Printer Class
-ThermalPrinter = adafruit_thermal_printer.get_printer_class(2.69)
+ThermalPrinter = adafruit_thermal_printer.get_printer_class(2.68)
 
 printer = ThermalPrinter(uart)
 
@@ -19,7 +19,7 @@ printer = ThermalPrinter(uart)
 printer.test_page()
 
 #printer.feed() advances the paper forward some lines given
-printer.feed(2)
+printer.feed(3)
 
 printer.print("Hello World! I'm Alive!")
 printer.feed(3)
