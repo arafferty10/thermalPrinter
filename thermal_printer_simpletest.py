@@ -36,13 +36,15 @@ printer = ThermalPrinter(uart, auto_warm_up=False)
 # to warm up and be ready to accept commands (hence calling it explicitly vs.
 # automatically in the initializer with the default auto_warm_up=True).
 printer.warm_up()
+print("Printer warmed up...")
 
 # Check if the printer has paper.  This only works if the RX line is connected
 # on your board (but BE CAREFUL as mentioned above this RX line is 5V!)
-if printer.has_paper():
-    print('Printer has paper!')
-else:
-    print('Printer might be out of paper, or RX is disconnected!')
+
+# if printer.has_paper():
+#     print('Printer has paper!')
+# else:
+#     print('Printer might be out of paper, or RX is disconnected!')
 
 # Print a test page:
 printer.test_page()
