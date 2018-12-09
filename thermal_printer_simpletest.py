@@ -9,14 +9,15 @@ import adafruit_thermal_printer
 # your printer.  Hold the button on the printer as it's powered on and it will
 # print a test page that displays the firmware version, like 2.64, 2.68, etc.
 # Use this version in the get_printer_class function below.
-ThermalPrinter = adafruit_thermal_printer.get_printer_class(2.69)
+ThermalPrinter = adafruit_thermal_printer.get_printer_class(2.68)
 
 # Define RX and TX pins for the board's serial port connected to the printer.
 # Only the TX pin needs to be configued, and note to take care NOT to connect
 # the RX pin if your board doesn't support 5V inputs.  If RX is left unconnected
 # the only loss in functionality is checking if the printer has paper--all other
 # functions of the printer will work.
-RX = board.RX
+
+# RX = board.RX
 TX = board.TX
 
 # Create a serial connection for the printer.  You must use the same baud rate

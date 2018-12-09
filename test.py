@@ -26,6 +26,8 @@ printer.feed(3)
 printer.print("Hello World! I'm Alive!")
 printer.feed(3)
 
+print("Code Complete!")
+
 #----------------------PRINTER FONTS-------------------------
 #printer.bold = True ---> turns on bold text
 #printer.inverse = True ---> Prints white on black text
