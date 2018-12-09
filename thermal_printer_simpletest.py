@@ -18,7 +18,7 @@ ThermalPrinter = adafruit_thermal_printer.get_printer_class(2.68)
 # functions of the printer will work.
 
 # RX = board.RX
-TX = board.TX
+# TX = board.TX
 
 # Create a serial connection for the printer.  You must use the same baud rate
 # as your printer is configured (print a test page by holding the button
