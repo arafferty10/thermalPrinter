@@ -3,6 +3,8 @@
 #https://learn.adafruit.com/mini-thermal-receipt-printer/circuitpython
 #Winter 2018
 
+import board
+import busio
 import serial
 import adafruit_thermal_printer
 
