@@ -26,7 +26,7 @@ ThermalPrinter = adafruit_thermal_printer.get_printer_class(2.68)
 # uart = busio.UART(TX, RX, baudrate=19200)
 
 # For a computer, use the pyserial library for uart access.
-# import serial
+import serial
 uart = serial.Serial("../../../dev/serial0", baudrate=19200, timeout=3000)
 
 # Create the printer instance.
