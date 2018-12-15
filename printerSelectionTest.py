@@ -1,5 +1,5 @@
 #Aidan Rafferty
-#Thermal Printer Choosing a Random Story
+#Thermal Printer Button and Random Integer Test
 #https://learn.adafruit.com/mini-thermal-receipt-printer/circuitpython
 #Winter 2018
 
