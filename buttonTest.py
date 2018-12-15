@@ -7,7 +7,7 @@ import board
 import busio
 import serial
 import RPi.GPIO as GPIO
-import timeout
+import time
 
 GPIO.setmode(GPIO.BCM)
 
