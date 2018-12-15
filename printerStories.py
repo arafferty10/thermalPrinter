@@ -29,31 +29,35 @@ while True:
     input_state = GPIO.input(18)
     if input_state == False:
         n = 0
-        n = random.randint(1,3)
+        n = random.randint(1,4)
         print('Button Pressed')
         print(n)
         time.sleep(0.4)
 
         if n == 1:
-            printer.feed(5)
+            printer.feed(1)
             printer.print("Choice 1: Help I'm stuck in the printer")
+            printer.feed(3)
         elif n == 2:
-            printer.feed(5)
+            printer.feed(1)
             printer.bold = True
             printer.print('cHoIcE 2: Do or do not there is no try!')
             printer.bold = False
+            printer.feed(3)
         elif n == 3:
-            printer.feed(5)
+            printer.feed(1)
             printer.underline = adafruit_thermal_printer.UNDERLINE_THICK
             printer.bold = True
             printer.print('#3: I WILL DESTROY YOU!!!')
             printer.underline = None
             printer.bold = False
+            printer.feed(3)
         elif n == 4:
-            printer.feed(5)
+            printer.feed(1)
             printer.double_height = True
             printer.print('Selection 4: Commander Cody, Execute Order 66!')
             printer.double_height = False
+            printer.feed(3)
 
 
 print("Code Complete!")
