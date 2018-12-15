@@ -18,7 +18,7 @@ printer = ThermalPrinter(uart)
 
 #Should be ready to print now :)
 #Printing a full test page
-printer.test_page()
+# printer.test_page()
 
 #printer.feed() advances the paper forward some lines given
 printer.feed(3)
