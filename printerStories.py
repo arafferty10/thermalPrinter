@@ -37,19 +37,19 @@ while True:
         if n == 1:
             printer.feed(5)
             printer.print("Choice 1: Help I'm stuck in the printer")
-        else if n == 2:
+        elif n == 2:
             printer.feed(5)
             printer.bold = True
             printer.print('cHoIcE 2: Do or do not there is no try!')
             printer.bold = False
-        else if n == 3:
+        elif n == 3:
             printer.feed(5)
             printer.underline = adafruit_thermal_printer.UNDERLINE_THICK
             printer.bold = True
             printer.print('#3: I WILL DESTROY YOU!!!')
             printer.underline = None
             printer.bold = False
-        else if n == 4:
+        elif n == 4:
             printer.feed(5)
             printer.double_height = True
             printer.print('Selection 4: Commander Cody, Execute Order 66!')
