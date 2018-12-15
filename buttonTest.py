@@ -20,4 +20,5 @@ while True:
         n = 0
         n = random.randint(1,10)
         print('Button Pressed')
+        print(n)
         time.sleep(0.4)
