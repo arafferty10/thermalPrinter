@@ -35,14 +35,13 @@ while True:
         time.sleep(0.4)
 
         printer.feed(2)
-        printer.justify = adafruit_thermal_printer.JUSTIFY_CENTER
         printer.size = adafruit_thermal_printer.SIZE_LARGE
         printer.print('Dimension')
-        printer.justify = adafruit_thermal_printer.JUSTIFY_CENTER
+        printer.feed(1)
         printer.size = adafruit_thermal_printer.SIZE_MEDIUM
         printer.print('By Alice Murno')
         printer.feed(2)
         printer.justify = adafruit_thermal_printer.JUSTIFY_LEFT
         printer.size = adafruit_thermal_printer.SIZE_SMALL
-        printer.print('Doree had to take three buses one to Kincardine, where she waited for one to London, where she waited again, for the city bus out to the facility. She started the trip on a Sunday at nine in the morning. Because of the waiting times between buses, it took her until about two in the afternoon to travel the hundred-odd miles. All that sitting, either on buses or in the depots, was not a thing she should have minded. Her daily work was not of the sitting-down kind. She was a chambermaid at the Comfort Inn. She scrubbed bathrooms and stripped and made beds and vacuumed rugs and wiped mirrors. She liked the work—it occupied her thoughts to a certain extent and tired her out so that she could sleep at night. She was seldom faced with a really bad mess, though some of the women she worked with could tell stories to make your hair curl. These women were older than her, and they all thought that she should try to work her way up. They told her that she should get trained for a job behind the desk, while she was still young and decent-looking. But she was content to do what she did. She didn’t want to have to talk to people.')
+        printer.print('Doree had to take three buses one to Kincardine, where she waited for one to London, where she waited again, for the city bus out to the facility. She started the trip on a Sunday at nine in the morning. Because of the waiting times between buses, it took her until about two in the afternoon to travel the hundred-odd miles. All that sitting, either on buses or in the depots, was not a thing she should have minded. Her daily work was not of the sitting-down kind. She was a chambermaid at the Comfort Inn. She scrubbed bathrooms and stripped and made beds and vacuumed rugs and wiped mirrors. She liked the work it occupied her thoughts to a certain extent and tired her out so that she could sleep at night. She was seldom faced with a really bad mess, though some of the women she worked with could tell stories to make your hair curl. These women were older than her, and they all thought that she should try to work her way up. They told her that she should get trained for a job behind the desk, while she was still young and decent-looking. But she was content to do what she did. She didn’t want to have to talk to people.')
         printer.feed(2)
