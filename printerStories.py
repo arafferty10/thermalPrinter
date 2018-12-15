@@ -7,9 +7,12 @@ import board
 import busio
 import serial
 import adafruit_thermal_printer
+import RPi.GPIO as GPIO
+import time
 
-#Create Value to choose Story
-n = 0
+#Set values for button
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(18, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 
 #Initialize hardware serial connection to the printer
 uart = serial.Serial("../../../dev/serial0", baudrate=19200, timeout=3000)
@@ -19,12 +22,8 @@ ThermalPrinter = adafruit_thermal_printer.get_printer_class(2.68)
 
 printer = ThermalPrinter(uart)
 
-#Should be ready to print now :)
-#Printing a full test page
-# printer.test_page()
-
 #printer.feed() advances the paper forward some lines given
-printer.feed(3)
+printer.feed(5)
 
 printer.print("Hello World! I'm Alive!")
 printer.feed(3)
