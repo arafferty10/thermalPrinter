@@ -31,7 +31,7 @@ while True:
         # n = 0
         # n = random.randint(1,4)
         print('Button Pressed')
-        print(n)
+        # print(n)
         time.sleep(0.4)
 
         printer.feed(2)
