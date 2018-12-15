@@ -10,6 +10,7 @@ import adafruit_thermal_printer
 import RPi.GPIO as GPIO
 import time
 import random
+import string
 
 #--------------------SETUP------------------------
 #Set values for button
@@ -23,7 +24,7 @@ uart = serial.Serial("../../../dev/serial0", baudrate=19200, timeout=3000)
 ThermalPrinter = adafruit_thermal_printer.get_printer_class(2.68)
 printer = ThermalPrinter(uart)
 
-unicodeData.encode('ascii', 'ignore')
+# unicodeData.encode('ascii', 'ignore')
 
 #-------------------------------------------------
 
@@ -42,5 +43,5 @@ while True:
         printer.size = adafruit_thermal_printer.SIZE_MEDIUM
         printer.print('By Han Kang')
         printer.size = adafruit_thermal_printer.SIZE_SMALL
-        printer.print('I struggled to recall the last occasion that I’d seen my wife naked, and it had been bright enough to see her properly. Not that year, for sure; I wasn’t even certain that it had happened the year before. How could I have failed to notice such deep bruises on the body of the only person I lived with? I tried to count the fine wrinkles radiating out from the corners of my wife’s eyes. Then I told her to take off all her clothes. A red flush appeared along the line of her cheekbones, which her weight loss had left indecently sharp. She tried to remonstrate with me. ‘What if someone sees?’')
+        printer.print('I struggled to recall the last occasion that I’d seen my wife naked, and it had been bright enough to see her properly. Not that year, for sure; I wasn’t even certain that it had happened the year before. How could I have failed to notice such deep bruises on the body of the only person I lived with? I tried to count the fine wrinkles radiating out from the corners of my wife’s eyes. Then I told her to take off all her clothes. A red flush appeared along the line of her cheekbones, which her weight loss had left indecently sharp. She tried to remonstrate with me. ‘What if someone sees?’', string.encode("ascii", "ignore"))
         printer.feed(2)
