@@ -10,6 +10,7 @@ import adafruit_thermal_printer
 import RPi.GPIO as GPIO
 import time
 import random
+import unicodeData
 
 #--------------------SETUP------------------------
 #Set values for button
@@ -22,6 +23,8 @@ uart = serial.Serial("../../../dev/serial0", baudrate=19200, timeout=3000)
 #Create Thermal Printer Class
 ThermalPrinter = adafruit_thermal_printer.get_printer_class(2.68)
 printer = ThermalPrinter(uart)
+
+unicodeData.encode('ascii', 'ignore')
 
 #-------------------------------------------------
 
