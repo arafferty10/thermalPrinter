@@ -10,7 +10,6 @@ import adafruit_thermal_printer
 import RPi.GPIO as GPIO
 import time
 import random
-import unicodeData
 
 #--------------------SETUP------------------------
 #Set values for button
