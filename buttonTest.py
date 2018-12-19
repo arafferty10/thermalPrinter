@@ -22,3 +22,8 @@ while True:
         print('Button Pressed')
         print(n)
         time.sleep(0.4)
+        printer.feed(3)
+        printer.print("Hi Baby!\n")
+        printer.print("I lervvvv you!\n")
+        printer.print("From, Your nor so Secret Admirer")
+        printer.feed(3)
