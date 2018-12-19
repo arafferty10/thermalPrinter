@@ -23,7 +23,10 @@ printer = ThermalPrinter(uart)
 #printer.feed() advances the paper forward some lines given
 printer.feed(3)
 
-printer.print("Hello World! I'm Alive!")
+printer.print("Hi Baby!\n")
+printer.print("I lervvvv you!\n")
+printer.print("From, Your nor so Secret Admirer")
+
 printer.feed(3)
 
 print("Code Complete!")

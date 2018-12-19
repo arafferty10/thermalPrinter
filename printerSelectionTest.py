@@ -36,26 +36,26 @@ while True:
 
         if n == 1:
             printer.feed(1)
-            printer.print("Choice 1: Help I'm stuck in the printer")
+            printer.print("I lerv you babyyyyy")
             printer.feed(3)
         elif n == 2:
             printer.feed(1)
             printer.bold = True
-            printer.print('cHoIcE 2: Do or do not there is no try!')
+            printer.print("You're so dope and sweet")
             printer.bold = False
             printer.feed(3)
         elif n == 3:
             printer.feed(1)
             printer.underline = adafruit_thermal_printer.UNDERLINE_THICK
             printer.bold = True
-            printer.print('#3: I WILL DESTROY YOU!!!')
+            printer.print('Joely Tynes is the bombbbbb')
             printer.underline = None
             printer.bold = False
             printer.feed(3)
         elif n == 4:
             printer.feed(1)
             printer.double_height = True
-            printer.print('Selection 4: Commander Cody, Execute Order 66!')
+            printer.print("You're the best my babeee! \n From, Your not so secret admirier")
             printer.double_height = False
             printer.feed(3)
 
