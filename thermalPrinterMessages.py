@@ -29,7 +29,7 @@ while True:
     input_state = GPIO.input(18)
     if input_state == False:
         n = 0
-        n = random.randint(1,3)
+        n = random.randint(1,12)
         print('Button Pressed')
         print(n)
         time.sleep(0.4)
@@ -37,28 +37,110 @@ while True:
         if n == 1:
             printer.feed(2)
 
-            storyStr = ''
+            msg = 'I love you soooooo much baby!! I hope you have a fantastic day! :))) \n -Aidan'
             #Ignores ascii characters for printing
-            storyStr = storyStr.encode('ascii', 'ignore').decode('ascii')
+            msgStr = storyStr.encode('ascii', 'ignore').decode('ascii')
 
-            printer.print(storyStr)
+            printer.print(msgStr)
             printer.feed(2)
 
         if n == 2:
             printer.feed(2)
 
-            storyStr = ''
+            msg = 'Sending all my love to my most speical person in the whole wide world! \n -Aidan'
             #Ignores ascii characters for printing
-            storyStr = storyStr.encode('ascii', 'ignore').decode('ascii')
+            msgStr = storyStr.encode('ascii', 'ignore').decode('ascii')
 
-            printer.print(storyStr)
+            printer.print(msgStr)
             printer.feed(2)
 
         if n == 3:
+            printer.feed(2)
 
-            storyStr = ''
+            msg = 'You are the most speical, most wonderful person in the entire world! I cant imagine what my life would be without you, I love you Joely <3 \n -Aidan'
             #Ignores ascii characters for printing
-            storyStr = storyStr.encode('ascii', 'ignore').decode('ascii')
+            msgStr = storyStr.encode('ascii', 'ignore').decode('ascii')
 
-            printer.print(storyStr)
+            printer.print(msgStr)
+            printer.feed(2)
+
+        if n == 4:
+            printer.feed(2)
+
+            msg = 'MEMBER SHANGHAI!!! MEMBER MOAB!!! MEMBER EUROPE!!! Youre my absolute favorite travel buddy and I cannot wait to see the entire world with you my love! \n -Aidan'
+            msgStr = storyStr.encode('ascii', 'ignore').decode('ascii')
+
+            printer.print(msgStr)
+            printer.feed(2)
+
+        if n == 5:
+            printer.feed(2)
+
+            msg = 'I feel very blessed to have a partner in life who supports me, who is enthusiastic about what I want to do. - Hillary Clinton \n This is how I feel about you every day Joely, I love you :) \n -Aidan'
+            msgStr = storyStr.encode('ascii', 'ignore').decode('ascii')
+
+            printer.print(msgStr)
+            printer.feed(2)
+
+        if n == 6:
+            printer.feed(2)
+
+            msg = 'Youre always on my mind my love! Have a fantastic day!! \n -Aidan'
+            msgStr = storyStr.encode('ascii', 'ignore').decode('ascii')
+
+            printer.print(msgStr)
+            printer.feed(2)
+
+        if n == 7:
+            printer.feed(2)
+
+            msg = 'I lerv you babyyyyy!! \n -Aidan'
+            msgStr = storyStr.encode('ascii', 'ignore').decode('ascii')
+
+            printer.print(msgStr)
+            printer.feed(2)
+
+        if n == 8:
+            printer.feed(2)
+
+            msg = "You're so dope and sweet \n -Aidan"
+            msgStr = storyStr.encode('ascii', 'ignore').decode('ascii')
+
+            printer.print(msgStr)
+            printer.feed(2)
+
+        if n == 9:
+            printer.feed(2)
+
+            msg = 'Joely Tynes is the bombbbbb \n -Your Robot Printer Admirier'
+            msgStr = storyStr.encode('ascii', 'ignore').decode('ascii')
+
+            printer.print(msgStr)
+            printer.feed(2)
+
+        if n == 10:
+            printer.feed(2)
+
+            msg = "You're the best my babeee! \n From, Your not so secret admirier"
+            msgStr = storyStr.encode('ascii', 'ignore').decode('ascii')
+
+            printer.print(msgStr)
+            printer.feed(2)
+
+        if n == 11:
+            printer.feed(2)
+
+            msg = '\n -Aidan'
+            msgStr = storyStr.encode('ascii', 'ignore').decode('ascii')
+
+            printer.print(msgStr)
+            printer.feed(2)
+
+        if n == 12:
+            printer.feed(2)
+
+            msg = '\n -Aidan'
+            msgStr = storyStr.encode('ascii', 'ignore').decode('ascii')
+
+            printer.print(msgStr)
             printer.feed(2)

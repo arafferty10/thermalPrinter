@@ -23,4 +23,3 @@ while True:
         print(n)
         time.sleep(0.4)
         printer.feed(3)
-s
