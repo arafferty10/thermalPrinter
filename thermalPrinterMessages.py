@@ -39,7 +39,7 @@ while True:
 
             msg = 'I love you soooooo much baby!! I hope you have a fantastic day! :))) \n -Aidan'
             #Ignores ascii characters for printing
-            msgStr = storyStr.encode('ascii', 'ignore').decode('ascii')
+            msgStr = msg.encode('ascii', 'ignore').decode('ascii')
 
             printer.print(msgStr)
             printer.feed(2)
@@ -49,7 +49,7 @@ while True:
 
             msg = 'Sending all my love to my most speical person in the whole wide world! \n -Aidan'
             #Ignores ascii characters for printing
-            msgStr = storyStr.encode('ascii', 'ignore').decode('ascii')
+            msgStr = msg.encode('ascii', 'ignore').decode('ascii')
 
             printer.print(msgStr)
             printer.feed(2)
@@ -59,7 +59,7 @@ while True:
 
             msg = 'You are the most speical, most wonderful person in the entire world! I cant imagine what my life would be without you, I love you Joely <3 \n -Aidan'
             #Ignores ascii characters for printing
-            msgStr = storyStr.encode('ascii', 'ignore').decode('ascii')
+            msgStr = msg.encode('ascii', 'ignore').decode('ascii')
 
             printer.print(msgStr)
             printer.feed(2)
@@ -68,7 +68,7 @@ while True:
             printer.feed(2)
 
             msg = 'MEMBER SHANGHAI!!! MEMBER MOAB!!! MEMBER EUROPE!!! Youre my absolute favorite travel buddy and I cannot wait to see the entire world with you my love! \n -Aidan'
-            msgStr = storyStr.encode('ascii', 'ignore').decode('ascii')
+            msgStr = msg.encode('ascii', 'ignore').decode('ascii')
 
             printer.print(msgStr)
             printer.feed(2)
@@ -77,7 +77,7 @@ while True:
             printer.feed(2)
 
             msg = 'I feel very blessed to have a partner in life who supports me, who is enthusiastic about what I want to do. - Hillary Clinton \n This is how I feel about you every day Joely, I love you :) \n -Aidan'
-            msgStr = storyStr.encode('ascii', 'ignore').decode('ascii')
+            msgStr = msg.encode('ascii', 'ignore').decode('ascii')
 
             printer.print(msgStr)
             printer.feed(2)
@@ -86,7 +86,7 @@ while True:
             printer.feed(2)
 
             msg = 'Youre always on my mind my love! Have a fantastic day!! \n -Aidan'
-            msgStr = storyStr.encode('ascii', 'ignore').decode('ascii')
+            msgStr = msg.encode('ascii', 'ignore').decode('ascii')
 
             printer.print(msgStr)
             printer.feed(2)
@@ -95,7 +95,7 @@ while True:
             printer.feed(2)
 
             msg = 'I lerv you babyyyyy!! \n -Aidan'
-            msgStr = storyStr.encode('ascii', 'ignore').decode('ascii')
+            msgStr = msg.encode('ascii', 'ignore').decode('ascii')
 
             printer.print(msgStr)
             printer.feed(2)
@@ -104,7 +104,7 @@ while True:
             printer.feed(2)
 
             msg = "You're so dope and sweet \n -Aidan"
-            msgStr = storyStr.encode('ascii', 'ignore').decode('ascii')
+            msgStr = msg.encode('ascii', 'ignore').decode('ascii')
 
             printer.print(msgStr)
             printer.feed(2)
@@ -113,7 +113,7 @@ while True:
             printer.feed(2)
 
             msg = 'Joely Tynes is the bombbbbb \n -Your Robot Printer Admirier'
-            msgStr = storyStr.encode('ascii', 'ignore').decode('ascii')
+            msgStr = msg.encode('ascii', 'ignore').decode('ascii')
 
             printer.print(msgStr)
             printer.feed(2)
@@ -122,7 +122,7 @@ while True:
             printer.feed(2)
 
             msg = "You're the best my babeee! \n From, Your not so secret admirier"
-            msgStr = storyStr.encode('ascii', 'ignore').decode('ascii')
+            msgStr = msg.encode('ascii', 'ignore').decode('ascii')
 
             printer.print(msgStr)
             printer.feed(2)
@@ -131,7 +131,7 @@ while True:
             printer.feed(2)
 
             msg = '\n -Aidan'
-            msgStr = storyStr.encode('ascii', 'ignore').decode('ascii')
+            msgStr = msg.encode('ascii', 'ignore').decode('ascii')
 
             printer.print(msgStr)
             printer.feed(2)
@@ -140,7 +140,7 @@ while True:
             printer.feed(2)
 
             msg = '\n -Aidan'
-            msgStr = storyStr.encode('ascii', 'ignore').decode('ascii')
+            msgStr = msg.encode('ascii', 'ignore').decode('ascii')
 
             printer.print(msgStr)
             printer.feed(2)
