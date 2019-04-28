@@ -56,7 +56,7 @@ while True:
 
             GPIO.output(22,GPIO.LOW)
             GPIO.output(24,GPIO.HIGH)
-            time.sleep(6)
+            time.sleep(4)
             GPIO.output(24,GPIO.LOW)
 
         if n == 2:
@@ -73,7 +73,7 @@ while True:
 
             GPIO.output(22,GPIO.LOW)
             GPIO.output(24,GPIO.HIGH)
-            time.sleep(6)
+            time.sleep(4)
             GPIO.output(24,GPIO.LOW)
 
         if n == 3:
@@ -90,7 +90,7 @@ while True:
 
             GPIO.output(22,GPIO.LOW)
             GPIO.output(24,GPIO.HIGH)
-            time.sleep(6)
+            time.sleep(4)
             GPIO.output(24,GPIO.LOW)
 
         if n == 4:
@@ -106,7 +106,7 @@ while True:
 
             GPIO.output(22,GPIO.LOW)
             GPIO.output(24,GPIO.HIGH)
-            time.sleep(6)
+            time.sleep(4)
             GPIO.output(24,GPIO.LOW)
 
         if n == 5:
@@ -122,7 +122,7 @@ while True:
 
             GPIO.output(22,GPIO.LOW)
             GPIO.output(24,GPIO.HIGH)
-            time.sleep(6)
+            time.sleep(4)
             GPIO.output(24,GPIO.LOW)
 
         if n == 6:
@@ -138,7 +138,7 @@ while True:
 
             GPIO.output(22,GPIO.LOW)
             GPIO.output(24,GPIO.HIGH)
-            time.sleep(6)
+            time.sleep(4)
             GPIO.output(24,GPIO.LOW)
 
         if n == 7:
@@ -154,7 +154,7 @@ while True:
 
             GPIO.output(22,GPIO.LOW)
             GPIO.output(24,GPIO.HIGH)
-            time.sleep(6)
+            time.sleep(4)
             GPIO.output(24,GPIO.LOW)
 
         if n == 8:
@@ -170,7 +170,7 @@ while True:
 
             GPIO.output(22,GPIO.LOW)
             GPIO.output(24,GPIO.HIGH)
-            time.sleep(6)
+            time.sleep(4)
             GPIO.output(24,GPIO.LOW)
 
         if n == 9:
@@ -186,7 +186,7 @@ while True:
 
             GPIO.output(22,GPIO.LOW)
             GPIO.output(24,GPIO.HIGH)
-            time.sleep(6)
+            time.sleep(4)
             GPIO.output(24,GPIO.LOW)
 
         if n == 10:
@@ -202,7 +202,7 @@ while True:
 
             GPIO.output(22,GPIO.LOW)
             GPIO.output(24,GPIO.HIGH)
-            time.sleep(6)
+            time.sleep(4)
             GPIO.output(24,GPIO.LOW)
 
         if n == 11:
@@ -218,7 +218,7 @@ while True:
 
             GPIO.output(22,GPIO.LOW)
             GPIO.output(24,GPIO.HIGH)
-            time.sleep(6)
+            time.sleep(4)
             GPIO.output(24,GPIO.LOW)
 
         if n == 12:
@@ -234,5 +234,5 @@ while True:
 
             GPIO.output(22,GPIO.LOW)
             GPIO.output(24,GPIO.HIGH)
-            time.sleep(6)
+            time.sleep(4)
             GPIO.output(24,GPIO.LOW)
