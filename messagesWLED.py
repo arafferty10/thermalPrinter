@@ -52,11 +52,11 @@ while True:
             msgStr = msg.encode('ascii', 'ignore').decode('ascii')
 
             printer.print(msgStr)
-            printer.feed(2)
+            printer.feed(3)
 
             GPIO.output(22,GPIO.LOW)
             GPIO.output(24,GPIO.HIGH)
-            time.sleep(4)
+            time.sleep(3)
             GPIO.output(24,GPIO.LOW)
 
         if n == 2:
@@ -69,11 +69,11 @@ while True:
             msgStr = msg.encode('ascii', 'ignore').decode('ascii')
 
             printer.print(msgStr)
-            printer.feed(2)
+            printer.feed(3)
 
             GPIO.output(22,GPIO.LOW)
             GPIO.output(24,GPIO.HIGH)
-            time.sleep(4)
+            time.sleep(3)
             GPIO.output(24,GPIO.LOW)
 
         if n == 3:
@@ -86,11 +86,11 @@ while True:
             msgStr = msg.encode('ascii', 'ignore').decode('ascii')
 
             printer.print(msgStr)
-            printer.feed(2)
+            printer.feed(3)
 
             GPIO.output(22,GPIO.LOW)
             GPIO.output(24,GPIO.HIGH)
-            time.sleep(4)
+            time.sleep(3)
             GPIO.output(24,GPIO.LOW)
 
         if n == 4:
@@ -102,11 +102,11 @@ while True:
             msgStr = msg.encode('ascii', 'ignore').decode('ascii')
 
             printer.print(msgStr)
-            printer.feed(2)
+            printer.feed(3)
 
             GPIO.output(22,GPIO.LOW)
             GPIO.output(24,GPIO.HIGH)
-            time.sleep(4)
+            time.sleep(3)
             GPIO.output(24,GPIO.LOW)
 
         if n == 5:
@@ -118,11 +118,11 @@ while True:
             msgStr = msg.encode('ascii', 'ignore').decode('ascii')
 
             printer.print(msgStr)
-            printer.feed(2)
+            printer.feed(3)
 
             GPIO.output(22,GPIO.LOW)
             GPIO.output(24,GPIO.HIGH)
-            time.sleep(4)
+            time.sleep(3)
             GPIO.output(24,GPIO.LOW)
 
         if n == 6:
@@ -134,11 +134,11 @@ while True:
             msgStr = msg.encode('ascii', 'ignore').decode('ascii')
 
             printer.print(msgStr)
-            printer.feed(2)
+            printer.feed(3)
 
             GPIO.output(22,GPIO.LOW)
             GPIO.output(24,GPIO.HIGH)
-            time.sleep(4)
+            time.sleep(3)
             GPIO.output(24,GPIO.LOW)
 
         if n == 7:
@@ -150,11 +150,11 @@ while True:
             msgStr = msg.encode('ascii', 'ignore').decode('ascii')
 
             printer.print(msgStr)
-            printer.feed(2)
+            printer.feed(3)
 
             GPIO.output(22,GPIO.LOW)
             GPIO.output(24,GPIO.HIGH)
-            time.sleep(4)
+            time.sleep(3)
             GPIO.output(24,GPIO.LOW)
 
         if n == 8:
@@ -166,11 +166,11 @@ while True:
             msgStr = msg.encode('ascii', 'ignore').decode('ascii')
 
             printer.print(msgStr)
-            printer.feed(2)
+            printer.feed(3)
 
             GPIO.output(22,GPIO.LOW)
             GPIO.output(24,GPIO.HIGH)
-            time.sleep(4)
+            time.sleep(3)
             GPIO.output(24,GPIO.LOW)
 
         if n == 9:
@@ -182,11 +182,11 @@ while True:
             msgStr = msg.encode('ascii', 'ignore').decode('ascii')
 
             printer.print(msgStr)
-            printer.feed(2)
+            printer.feed(3)
 
             GPIO.output(22,GPIO.LOW)
             GPIO.output(24,GPIO.HIGH)
-            time.sleep(4)
+            time.sleep(3)
             GPIO.output(24,GPIO.LOW)
 
         if n == 10:
@@ -198,11 +198,11 @@ while True:
             msgStr = msg.encode('ascii', 'ignore').decode('ascii')
 
             printer.print(msgStr)
-            printer.feed(2)
+            printer.feed(3)
 
             GPIO.output(22,GPIO.LOW)
             GPIO.output(24,GPIO.HIGH)
-            time.sleep(4)
+            time.sleep(3)
             GPIO.output(24,GPIO.LOW)
 
         if n == 11:
@@ -214,11 +214,11 @@ while True:
             msgStr = msg.encode('ascii', 'ignore').decode('ascii')
 
             printer.print(msgStr)
-            printer.feed(2)
+            printer.feed(3)
 
             GPIO.output(22,GPIO.LOW)
             GPIO.output(24,GPIO.HIGH)
-            time.sleep(4)
+            time.sleep(3)
             GPIO.output(24,GPIO.LOW)
 
         if n == 12:
@@ -230,9 +230,9 @@ while True:
             msgStr = msg.encode('ascii', 'ignore').decode('ascii')
 
             printer.print(msgStr)
-            printer.feed(2)
+            printer.feed(3)
 
             GPIO.output(22,GPIO.LOW)
             GPIO.output(24,GPIO.HIGH)
-            time.sleep(4)
+            time.sleep(3)
             GPIO.output(24,GPIO.LOW)
