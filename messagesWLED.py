@@ -4,7 +4,7 @@
 #Spring 2019
 
 import board
-import busio
+# import busio
 import serial
 import adafruit_thermal_printer
 import RPi.GPIO as GPIO
